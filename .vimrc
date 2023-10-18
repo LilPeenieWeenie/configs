@@ -6,9 +6,14 @@ nnoremap <C-u> <C-u>zz
 nnoremap n nzzzv
 nnoremap N Nzzzv
 
+map <C-c> "+y
+map <C-v> "+p
+
 " turn syntax on
 syntax on
 
 " number lines
 set number
+
+
 
