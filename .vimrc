@@ -14,6 +14,7 @@ syntax on
 
 " number lines
 set number
+set relativenumber
 
 
 
