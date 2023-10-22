@@ -2,6 +2,7 @@
 *
 
 # Whitelist ~/.vim and its contents
+
 !.vim/**
 !.tmux.conf
 !.gitignore
