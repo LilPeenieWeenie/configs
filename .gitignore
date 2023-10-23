@@ -1,0 +1,12 @@
+# exclude all
+*
+
+# whitelist
+!.gitignore
+!.vim/
+!.vim/**
+!.tmux/
+!.tmux/**
+!.tmux.conf
+!.nvimrc/
+!.nvimrc/**
