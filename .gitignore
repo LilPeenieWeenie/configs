@@ -4,6 +4,10 @@
 # Whitelist ~/.vim and its contents
 !.vim/
 !.vim/**
+!.nvimrc/
+!.nvimrc/**
+!.tmux/
+!.tmux/**
 !.tmux.conf
 !.gitignore
 
