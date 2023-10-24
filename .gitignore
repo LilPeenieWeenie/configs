@@ -10,3 +10,4 @@
 !.tmux.conf
 !.nvimrc/
 !.nvimrc/**
+!.config/nvim/init.lua
