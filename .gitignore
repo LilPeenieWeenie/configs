@@ -11,4 +11,5 @@
 !.tmux.conf
 !.nvimrc/
 !.nvimrc/**
-!.config/nvim/init.lua
+!.config/nvim/
+!.config/nvim/**
