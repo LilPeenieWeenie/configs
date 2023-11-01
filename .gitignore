@@ -11,5 +11,4 @@
 !.tmux.conf
 !.nvimrc/
 !.nvimrc/**
-!.config/nvim/
-!.config/nvim/**
+!.bashrc

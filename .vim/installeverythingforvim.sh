@@ -18,6 +18,12 @@ else
     echo "Tpm has been installed."
 fi
 
-export NVIM_init_VIM=~/configs/.vim/init.lua
-
-echo 'source ~/.nvimrc' > ~/.config/nvim/init.vim
+# Check if ~/.config/nvim exists
+nvim_dir=~/.config/nvim
+if [ ! -d "$nvim_dir" ]; then
+    echo "Directory $nvim_dir does not exist. Creating it..."
+    mkdir -p "$nvim_dir"
+else
+    echo "Directory $nvim_dir already exists."
+fi
+echo 'luafile $NVIM_INIT_VIM' > ~/.config/nvim/init.vim
