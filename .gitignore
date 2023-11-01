@@ -9,6 +9,6 @@
 !.tmux/
 !.tmux/**
 !.tmux.conf
-!.nvimrc/
-!.nvimrc/**
 !.bashrc
+!.config/nvim/
+!.config/nvim/**

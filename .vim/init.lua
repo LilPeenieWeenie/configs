@@ -19,3 +19,7 @@ vim.bo.tabstop = 4
 vim.bo.shiftwidth = 4
 vim.bo.expandtab = true
 
+return require('packer').startup(function(use)
+    --plugins
+    use 'wbthomason/packer.nvim'
+end)
